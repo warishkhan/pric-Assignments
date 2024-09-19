@@ -1,4 +1,4 @@
-package com.pagination_testing
+package com.pric
 
 import android.app.Application
 import com.facebook.react.PackageList

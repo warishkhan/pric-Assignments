@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421581516660",
+    "project_id": "pricassignments",
+    "storage_bucket": "pricassignments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421581516660:android:0bde5c54e21b67b0e0c621",
+        "android_client_info": {
+          "package_name": "com.pric"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2eJtbP_HjlxPjwF5NgWjcpYt3oZFtuVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

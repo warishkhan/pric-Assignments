@@ -1,4 +1,4 @@
-package com.pagination_testing
+package com.pric
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
