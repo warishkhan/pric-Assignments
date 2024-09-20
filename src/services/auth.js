@@ -1,9 +1,8 @@
 import auth from '@react-native-firebase/auth';
-import {Auth} from '../../node_modules/@firebase/auth/dist/esm2017/src/model/public_types.d';
 
 const signUp = (fullname, email, password) => {
   if (!fullname || !email || !password) {
-    Alert('Enter data');
+    alert('Enter data');
   } else {
     return auth()
       .createUserWithEmailAndPassword(email.trim(), password)
@@ -20,6 +19,8 @@ const signUp = (fullname, email, password) => {
 
 const signIn = (email, password) => {
   if (!email || !password) {
+    alert('Enter details');
+  } else {
     return auth()
       .signInWithEmailAndPassword(email.trim(), password)
       .then(() => {
